@@ -10,19 +10,21 @@ import DoctorSignup from './Pages/DoctorSignup'
 import DoctorLogin from './Pages/PatientLogin'
 import LabSignup from './Pages/LabSignup'
 import LabLogin from './Pages/LabLogin'
+import AddDiagnosis from './components/AddDiagnosis'
 function App() {
 
   return (
     <>
     {/* <PatientLogin /> */}
     {/* <PatientSignup /> */}
-    {/* <AiGenerated /> */}
+    <AiGenerated />
     {/* <PatientDashboard /> */}
       {/* <DoctorDashboard /> */}
       {/* <DoctorSignup/> */}
       {/* <DoctorLogin/> */}
       {/* <LabSignup/> */}
-      <LabLogin/>
+      {/* <LabLogin/> */}
+      {/* <AddDiagnosis/> */}
     </>
   )
 }
